@@ -1,0 +1,18 @@
+{
+  "name": "file-merge",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merge": "node ./common.js",
+    "merge-pdf": "node ./pdf.js",
+    "merge-txt": "node ./txt.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^5.1.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-merge": "^0.1.1"
+  }
+}
